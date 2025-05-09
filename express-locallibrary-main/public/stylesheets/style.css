@@ -1,0 +1,24 @@
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+h1{
+  color: rgb(0, 60, 255);
+  font-size: 100px;
+}
+
+body{
+  background-color: rgb(95, 228, 228);
+}
+
+ul{
+  background-color: rgb(162, 225, 230);
+}
+
+a{
+  font-weight: 1000;
+  padding: 10px;
+  color: blue;
+}
