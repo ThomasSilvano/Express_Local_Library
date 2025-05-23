@@ -9,6 +9,16 @@ block content
         li
           a(href=book.url) #{book.title}
           |  (#{book.author.name})
-
-  else
+                 button.btn.btn-primary(type='submit') Submit
+    else
     p There are no books.
+
+                 
+      if book in book.isbn 
+        li 
+          a(href=)  #{book.isbn}
+            (#{book.isbn})
+                    button.btn.btn-primary(type='submit') Submit
+ 
+      else
+      p There are no ISBN
